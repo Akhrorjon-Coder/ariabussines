@@ -1,0 +1,303 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.focus{
+    position: absolute;
+    background-color: rgba(12, 18, 18, 0.5);
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.7s ease-in-out;
+}
+.scroll{
+    background-color: #113448;
+    height: 60px;
+}
+.navbar{
+    z-index: 99;
+}
+.navbar-brand img{
+    width: 150px;
+    height: 30px;
+}
+.bgfon{
+    background: url('images/header-background.jpg') currentColor;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.dropdown-menu{
+    background-color: #113448;
+}
+.nav-item li a{
+    font-weight: 700;
+    color: white !important;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.nav-item li a:hover{
+    color: #14BF98 !important;
+}
+.banner-name{
+    background: none !important; 
+    padding-top: 250px;
+}
+.banner-name h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 3px;
+}
+.banner-name p{
+    font-size: 20px;
+    color: #D8D7D6;
+}
+.banner-button{
+    width: 150px;
+    height: 50px;
+    background-color: #14BF98;
+    border: 2px solid #14BF98 !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+.banner-button:hover{
+    background: none;
+}
+
+.intro{
+    margin-top: 80px;
+}
+.intro-image{
+    margin-top: 80px;
+    margin-left: 120px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.intro-image img:hover{
+    transform: scale(1.1);
+}
+.intro-image img{
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.intro p{
+    font-size: 15px;
+    color: #49BFA5;
+    font-weight: 600;
+}
+.intro-info{
+    font-size: 15px;
+    color: #78798C !important;
+    font-weight: 400 !important;
+}
+.intro h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.intro h5{
+   font-weight: 500;
+}
+
+.cards-1 {
+	padding-top: 3rem;
+	padding-bottom: 2.875rem;
+}
+
+.cards-1 .card {
+	margin-bottom: 2.5rem;
+	border: none;
+	text-align: center;
+}
+
+.cards-1 .fa-stack {
+	width: 6rem;
+	height: 6rem;
+	margin-right: auto;
+	margin-bottom: 1rem;
+	margin-left: auto;
+	line-height: 6rem;
+	text-align: left;
+}
+
+.cards-1 .fa-stack .hexagon {
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	background: url('images/hexagon-green.svg') center center no-repeat;
+	background-size: 6rem 6rem;
+}
+
+.cards-1 .fa-stack-1x {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.cards-1 .card-body {
+	padding: 0;
+}
+
+.cards-1 .card-title {
+	margin-bottom: 0.625rem;
+}
+.service{
+    background-color: #FBFBFB;
+}
+.service-text{
+    font-size: 16px;
+    color: #14BF98;
+}
+.service-title h2{
+    width: 40%;
+    text-align: center;
+    color: #484A46;
+    font-weight: 700;
+}
+.service-card .card ul{
+    list-style-type: square;
+    color: #14BF98;
+}
+.service-card .card ul li span{
+    color: #787976;
+}
+.service-card .card img{
+    height: 250px;
+}
+.service-card .card-title{
+    color: #484A46;
+}
+.service-card .card-text{
+    font-size: 18px;
+    color: #787976;
+}
+.service-button{
+    width: 130px;
+    height: 40px;
+    background-color: #14BF98;
+    border: 2px solid #14BF98 !important;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+.service-button:hover{
+    background: none;
+    color: #14BF98;
+}
+.price-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.price{
+    color: #14BF98;
+}
+
+
+.business h2{
+    width: 80%;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.business .cricle-number{
+    width:  30px;
+    height: 30px;
+    background-color: #14BF98;
+    border-radius: 50%;
+    font-size: 15px;
+    padding-top: 4px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    float: left;
+}
+.business-info span{
+    font-size: 20px;
+    color: #14BF98;
+    font-weight: 700;
+}
+.business-info p{
+    width: 70%;
+    justify-content: center;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+.business-services{
+    width: 50%;
+}
+
+.progres{
+    padding-left: 150px;
+}
+.progres ul li{
+    display: block;
+    float: left;
+    padding-top: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+.progres ul li a{
+    color: #C1CACE;
+}
+.progres ul li a:hover{
+    color: #14BF98;
+}
+.progres h4{
+    text-align: center;
+    font-weight: 800;
+    padding-left: 55px;
+}
+.progres p{
+    text-align: left;
+    padding-left: 55px;
+    width: 80%;
+    color: #78A6D3;
+}
+.progres .business-dev{
+    color: black;
+    font-weight: 600;
+}
+.progress-box{
+    width: 80%;
+    margin-left: 55px;
+    background-color: #F9FAFC;
+}
+.progress-box-tag{
+    width: 100%;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #14BF98;
+}
+.progress-box-tag-1{
+    width: 76%;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #14BF98;
+}
+.progress-box-tag-2{
+    width: 90%;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #14BF98;
+}
+
+

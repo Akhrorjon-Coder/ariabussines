@@ -1,0 +1,147 @@
+@media (min-width: 300px) and (max-width: 576px){
+    .bgfon{
+        height: 500px;
+    }
+    .focus{
+        height: 500px;
+    }
+    .navbar-brand img{
+        width: 100px;
+        height: 40px;
+    }
+    .scroll{
+        height: 80px;
+    }
+    .nav-item li a{
+        font-weight: 700;
+        color: white !important;
+        font-size: 12px;
+        text-align: center;
+    }
+    .icon{
+        display: none;
+    }
+    .banner-name{ 
+        padding-top: 150px;
+    }
+    .banner-name h1{
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    .banner-name p{
+        font-size: 12px;
+        
+    }
+    .banner-button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        background-color: #14BF98;
+        border: 2px solid #14BF98 !important;
+    }
+    .intro{
+        margin-top: 10px !important;
+    }
+    .intro p{
+        font-size: 14px;
+        color: #49BFA5;
+        font-weight: 600;
+    }
+    .intro-image{
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .intro h2{
+        font-size: 28px;
+    }
+    .intro h5{
+        font-size: 15px;
+    }
+
+    .service-title h2{
+        width: 80%;
+        font-size: 16px;
+    }
+    
+    .service-card .card img{
+        height: 150px;
+    }
+    .service-card .card-title{
+        font-size: 15px;
+    }
+    .service-card .card-text{
+        font-size: 12px;
+    }
+    .service-card .card ul li span{
+        font-size: 12px;
+    }
+    .service-button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .price-text{
+        font-size: 15px;
+    }
+    .business-image img{
+        width: 100%;
+    }
+    .business h2{
+        width: 80%;
+        padding-top: 50px;
+        font-size: 20px;
+        text-align: left !important;
+    }
+    .business .cricle-number{
+        width:  20px;
+        height: 20px;
+        border-radius: 50%;
+        font-size: 12px;
+        margin-top: 6px;
+        padding-top: 2px;
+        float: left;
+    }
+    .business-info span{
+        font-size: 12px;
+        text-align: left;
+    }
+    .business-info p{
+        width: 100%;
+        text-align: left;
+        font-size: 11px;
+    }
+    .progres{
+        padding-left: 0px;
+    }
+    .progres ul li{
+        display: block;
+        float: left;
+        padding-top: 50px;
+        margin-left: 12px;
+        font-size: 14px;
+    }
+    .progres h4{
+        text-align: center;
+        font-weight: 800;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .progres p{
+        padding-left: 50px;
+        width: 100%;
+        color: #78A6D3;
+    }
+    .progress-box{
+        margin-left: 45px;
+    }
+    .business-services img{
+        margin-top: 50px !important;
+    }
+    
+}
+
+@media (max-width: 991px){
+    nav{
+        background-color: #113448;
+    }
+}
