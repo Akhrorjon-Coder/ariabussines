@@ -299,5 +299,14 @@ img{
     border-radius: 2px;
     background-color: #14BF98;
 }
+.customer h3,p{
+    width: 100%;
+    text-align: center !important;
+}
+.customer h3{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
 
 
